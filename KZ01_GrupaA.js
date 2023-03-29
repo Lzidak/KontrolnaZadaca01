@@ -1,6 +1,6 @@
 //1 (3 BODA)
 //Napisi funkciju koja ispisuje parne brojeve od 0 do 100 (ukljucujuci 100)
-
+/*
 function zbroj() {
     for (let i = 0, i <= 100, i++) {
         if (i % 2 == 0) {
@@ -8,13 +8,47 @@ function zbroj() {
         }
     }
 };
-
+*/
 //2 (3 BODA)
 //Napisi funkciju koja koristi switch selekciju za pretvaranje numerickog unosa u dan u tjednu. Za neispravan unos ispisi prikladnu poruku.
 //INPUT: 1; OUTPUT: "Ponedjeljak";
 //INPUT: 5; OUTPUT: "Petak"; 
 
-function days()
+function days() {
+    switch (izbor) {
+        case 1: {
+            console.log("Ponedjeljak");
+            break;
+        }
+        case 2: {
+            console.log("Utorak");
+            break;
+        }
+        case 3: {
+            console.log("Srijeda");
+            break;
+        }
+        case 4: {
+            console.log("Četvrtak");
+            break;
+        }
+        case 5: {
+            console.log("Petak");
+            break;
+        }
+        case 6: {
+            console.log("Subota");
+            break;
+        }
+        case 7: {
+            console.log("");
+            break;
+        }
+
+
+    }
+}
+
 
 
 //3 (4 BODA)
