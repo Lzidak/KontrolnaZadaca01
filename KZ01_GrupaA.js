@@ -2,22 +2,26 @@
 //Napisi funkciju koja ispisuje parne brojeve od 0 do 100 (ukljucujuci 100)
 
 function zbroj() {
-    for (let i> 0, i <= 100, i++) {
+    for (let i = 0, i <= 100, i++) {
         if (i % 2 == 0) {
             console.log(zbroj)
         }
     }
-}
+};
 
 //2 (3 BODA)
 //Napisi funkciju koja koristi switch selekciju za pretvaranje numerickog unosa u dan u tjednu. Za neispravan unos ispisi prikladnu poruku.
 //INPUT: 1; OUTPUT: "Ponedjeljak";
 //INPUT: 5; OUTPUT: "Petak"; 
 
+
+
 //3 (4 BODA)
 //Napisi funkciju koja okrece uneseni string i broji charactere ne uzimajuci u obzir prazna mjesta (eng. whitespaces)
 //INPUT: "Pisanje zadataka nije jednostavan posao";
 //OUTPUT: ("oasop navatsondej ejin akatadaz ejnasiP", 35)
+
+
 
 //4 (4 BODA)
 //Napisi funkciju koja vraca najkraci kljuc u danom objektu
@@ -31,6 +35,8 @@ const somePeople = {
 }
 //INPUT: somePeople
 //OUTPUT: "Ada"
+
+
 
 //5 (4 BODA)
 //Napisi funkciju u obliku function expressiona koja vraca proste brojeve
