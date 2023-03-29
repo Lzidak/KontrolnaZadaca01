@@ -14,6 +14,7 @@ function zbroj() {
 //INPUT: 1; OUTPUT: "Ponedjeljak";
 //INPUT: 5; OUTPUT: "Petak"; 
 
+function days()
 
 
 //3 (4 BODA)
